@@ -25,5 +25,9 @@
     "url": "https://github.com/jlengstorf/modify-abstract-syntax-tree-unified/issues"
   },
   "homepage": "https://github.com/jlengstorf/modify-abstract-syntax-tree-unified#readme",
-  "dependencies": {}
+  "dependencies": {
+    "remark-html": "^10.0.0",
+    "remark-parse": "^7.0.2",
+    "unified": "^8.4.2"
+  }
 }
