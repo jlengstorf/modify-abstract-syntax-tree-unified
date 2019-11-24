@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "modify-abstract-syntax-tree-unified",
+  "version": "1.0.0",
+  "description": "A demo repo to show how to modify an abstract syntax tree using unified.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"TODO: write tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlengstorf/modify-abstract-syntax-tree-unified.git"
+  },
+  "keywords": [
+    "unified",
+    "unist",
+    "ast",
+    "abstract",
+    "syntax",
+    "tree"
+  ],
+  "author": "Jason Lengstorf <jason@lengstorf.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlengstorf/modify-abstract-syntax-tree-unified/issues"
+  },
+  "homepage": "https://github.com/jlengstorf/modify-abstract-syntax-tree-unified#readme",
+  "dependencies": {}
+}
