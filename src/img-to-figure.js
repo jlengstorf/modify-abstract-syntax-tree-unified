@@ -7,7 +7,7 @@ module.exports = options => tree => {
     node =>
       node.tagName === 'p' && node.children.some(n => n.tagName === 'img'),
     node => {
-      console.log(node);
+      node.tagName = 'figure';
     }
   );
 };
