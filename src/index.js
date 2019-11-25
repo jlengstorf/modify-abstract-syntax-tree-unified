@@ -5,6 +5,7 @@ const html = require('remark-html');
 
 const contents = unified()
   .use(markdown)
+  .use(() => tree => console.log(JSON.stringify(tree, null, 2)))
   .use(html)
   .processSync(fs.readFileSync(`${process.cwd()}/content/home.md`))
   .toString();
