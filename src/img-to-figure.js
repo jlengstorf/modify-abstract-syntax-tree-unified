@@ -15,7 +15,15 @@ module.exports = options => tree => {
 
       const caption = textNode.value.trim();
 
-      console.log({ caption });
+      // change the text node to a figcaption element containing a text node
+      textNode.type = 'element';
+      textNode.tagName = 'figcaption';
+      textNode.children = [
+        {
+          type: 'text',
+          value: caption
+        }
+      ];
 
       node.tagName = 'figure';
     }
