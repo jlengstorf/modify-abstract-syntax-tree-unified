@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jlengstorf/modify-abstract-syntax-tree-unified#readme",
   "dependencies": {
+    "rehype-document": "^3.1.0",
     "rehype-stringify": "^6.0.1",
     "remark-html": "^10.0.0",
     "remark-parse": "^7.0.2",
