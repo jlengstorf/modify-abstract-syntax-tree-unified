@@ -18,4 +18,4 @@ npm install
 node src/index.js
 ```
 
-[post]: https://lengstorf.com/modify-ast-unified/
+[post]: https://css-tricks.com/how-to-modify-nodes-in-an-abstract-syntax-tree/
